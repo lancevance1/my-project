@@ -9,62 +9,58 @@
     <p class="text-slate-500">You have a new message!</p>
   </div>
 </div>
-<div class="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-  <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="assets/img/erin-lindford1.jpg" alt="Woman's Face" />
-  <div class="text-center space-y-2 sm:text-left">
+<div
+  class="mx-auto max-w-sm space-y-2 rounded-xl bg-white px-8 py-8 shadow-lg sm:flex sm:items-center sm:space-x-6 sm:space-y-0 sm:py-4"
+>
+  <img
+    class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0"
+    src="assets/img/erin-lindford1.jpg"
+    alt="Woman's Face"
+  />
+  <div class="space-y-2 text-center sm:text-left">
     <div class="space-y-0.5">
-      <p class="text-lg text-black font-semibold">
-        Erin Lindford
-      </p>
-      <p class="text-slate-500 font-medium">
-        Product Engineer
-      </p>
+      <p class="text-lg font-semibold text-black">Erin Lindford</p>
+      <p class="font-medium text-slate-500">Product Engineer</p>
     </div>
-    <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+    <button
+      class="rounded-full border border-purple-200 px-4 py-1 text-sm font-semibold text-purple-600 hover:border-transparent hover:bg-purple-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
+    >
+      Message
+    </button>
   </div>
 </div>
-<button class="bg-violet-500 hover:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 active:bg-violet-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white">
+<button
+  class="rounded-full bg-violet-500 px-5 py-2 text-sm font-semibold leading-5 text-white hover:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 active:bg-violet-700"
+>
   Save changes
 </button>
 <form>
   <label class="block">
     <span class="block text-sm font-medium text-slate-700">Username</span>
     <!-- Using form state modifiers, the classes can be identical for every input -->
-    <input type="text" value="tbone" disabled class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
-      focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
-      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
-      invalid:border-pink-500 invalid:text-pink-600
-      focus:invalid:border-pink-500 focus:invalid:ring-pink-500
-    "/>
+    <input
+      type="text"
+      value="tbone"
+      disabled
+      class="mt-1 block w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm placeholder-slate-400 shadow-sm invalid:border-pink-500 invalid:text-pink-600 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:invalid:border-pink-500 focus:invalid:ring-pink-500 disabled:border-slate-200 disabled:bg-slate-50 disabled:text-slate-500 disabled:shadow-none"
+    />
   </label>
   <!-- ... -->
 </form>
-<blockquote class="text-2xl font-semibold italic text-center text-slate-900">
+<blockquote class="text-center text-2xl font-semibold italic text-slate-900">
   When you look
-  <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+  <span class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">
     <span class="relative text-white">annoyed</span>
   </span>
   all the time, people think that you're busy.
 </blockquote>
-<p class="first-line:uppercase first-line:tracking-widest
-  first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
-  first-letter:mr-3 first-letter:float-left
-">
-  Well, let me tell you something, funny boy. Y'know that little stamp, the one
-  that says "New York Public Library"? Well that may not mean anything to you,
-  but that means a lot to me. One whole hell of a lot.
+<p
+  class="first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900 first-line:uppercase first-line:tracking-widest"
+>
+  Well, let me tell you something, funny boy. Y'know that little stamp, the one that says "New York Public Library"?
+  Well that may not mean anything to you, but that means a lot to me. One whole hell of a lot.
 </p>
-<button type="button" class="bg-indigo-500 ..." disabled>
-  <svg class="motion-reduce:hidden animate-spin ..." viewBox="0 0 24 24"><!-- ... --></svg>
-  Processing...
-</button>
-
-<!-- Before extracting a custom class -->
-<button class="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-  Save changes
-</button>
-
-<!-- After extracting a custom class -->
-<button class="btn-primary">
-  Save changes
+<button type="button" class="... bg-indigo-500" disabled>
+  <svg class="... animate-spin motion-reduce:hidden" viewBox="0 0 24 24"><!-- ... --></svg>
+  Processing... test tttt
 </button>
